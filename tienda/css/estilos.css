@@ -1,0 +1,89 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.marcas_descripcion{
+    font-size: 18px;
+}
+footer{
+    background:  #273746 ;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-around;
+
+}
+footer .horarios{
+    margin-top: 2px;
+    text-align: center;
+    line-height: 1px;
+    padding: 5px;
+}
+footer .horarios h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+footer .horarios h5{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+footer p{
+    font-size: 10px;
+}
+.caracteristicas{
+    display: none;
+    list-style: none;
+    margin-left: 2px;
+    padding: 5px;
+}
+
+.btn-eliminar{
+    
+    width: 100%;
+    
+}
+.redes-sociales{
+    text-align: center;
+}
+.redes-sociales a{
+    padding: 10px;
+  display: inline-block;
+  margin: 20px 0 ;
+  width: 50px;
+  font-size: 22px;
+  color: white;
+  
+  border-radius : 100px;
+
+}
+.facebook{
+    background: #3b5998;
+    color: white;
+  }
+  .twitter{
+    background: #55acee;
+    color: white;
+  }
+  .instagram{
+    background: #515BD4;
+    color: white;
+  }
+  .facebook:hover{
+    background: black;
+    color: white;
+  }
+  .twitter:hover{
+    background: black;
+    color: white;
+  }
+  .instagram:hover{
+    background: black;
+    color: white;
+  }
+  .marc{
+      font-weight: bold;
+  }

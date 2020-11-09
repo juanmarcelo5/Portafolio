@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background: url(../img/fondo2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+    height:750px;
+    
+
+    
+
+}
+
+header .menu{
+    background: none;
+   
+
+}
+
+header .menu .navbar-brand{
+    font-size: 36px;
+    font-weight:  bold;
+    color: white;
+  
+
+}
+.navbar-toggler-icon{
+    color: white;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 21px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+   color: white;
+   opacity: 0.5;
+
+   
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: white;
+
+}
+
+
+.banner img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    vertical-align: middle;
+    text-align: center;
+
+}
+.banner h3{
+    color: white;
+    font-size: 52px;
+
+}
+.pt-100{
+    padding-top: 100px;
+
+}
+
+
+section h3{
+    color: black;
+    font-weight: 700;
+}
+.about{
+    font-size: 20px;
+}
+.front-skill{
+    text-align: justify;
+    padding: 10px;
+
+
+}
+.front-skill li{
+    margin-left: 60px;
+    font-size: 20px;
+}
+.back-skill{
+    text-align: left;
+    padding: 10px;
+
+}
+/*Estlos habilidades*/
+.row li{
+    margin: 20px 0;
+    list-style: none;
+    text-align: left;
+}
+.bar{
+    background: rgba(0,0,0,.9);;
+    display:block;
+    height: 4px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #0000FF;
+}
+/*habilidades*/
+.html{
+    width: 80%;
+}
+.css{
+    width: 50%;
+}
+.javaScript{
+    width: 60%;
+}
+.Responsive{
+    width: 70%;
+}
+.React{
+    width: 30%;
+}
+.java{
+    width: 95%;
+}
+.Postgresql{
+    width: 40%;
+}
+.Node{
+    width: 30%;
+}
+.C{
+    width: 80%;
+}
+.Python{
+    width: 20%;
+}
+h4{
+    font-weight: 700;
+}
+.card-title{
+    font-weight: 700;
+}
+.back-skill{
+    margin-left: 60px;
+    font-size: 20px;
+}
+.animado{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.mostrarArriba{
+    animation: mostrarArriba 2s;
+    
+
+}
+.contacto{
+    background-color: black;
+}
+.contacto h3{
+    font-size: 28px;
+    font-weight: 900;
+}
+.telefono{
+    font-weight: 900    ;
+    font-size: 22px;
+}
+.social a{
+    padding: 10px;
+    display: inline-block;
+    margin: 20px 0 ;
+    width: 50px;
+    font-size: 22px;
+    color: white;
+    background-color : black;
+    border-radius : 100px;
+    text-align: center;
+  }
+  .facebook:hover{
+    background: #3b5998;
+    color: white;
+  }
+  .twitter:hover{
+    background: #55acee;
+    color: white;
+  }
+  .instagram:hover{
+    background: #515BD4;
+    color: white;
+  }
+  .linkedin:hover{
+      background: #2867b2;
+      color:white;
+  }
+  .tools{
+      font-weight: 700;
+      color: black;
+  }
+@keyframes mostrarArriba{
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+
+}
+
+/*spinner*/
+.holder {
+    
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #ECE5DF;
+    z-index: 10;
+  }
+  
+  .preloader {
+    position: absolute;
+    width: 10%;
+    height: 0%;
+    padding-bottom: 10%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .preloader div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    overflow: hidden;
+    animation: animatePreloader 1s infinite linear;
+    transform-origin: 50% 100%;
+  }
+  .preloader div:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #205CF2;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  .preloader div:nth-child(2) {
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    animation: animatePreloader 0.5s infinite linear;
+  }
+  @keyframes animatePreloader {
+    0% {
+      transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) rotateZ(360deg);
+    }
+  }
+  
