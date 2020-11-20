@@ -42,7 +42,7 @@ function mostrarBody(){
     setTimeout(()=>{
         holder.remove();
 
-    },3000)    ;
+    },2000)    ;
    
 }
 
