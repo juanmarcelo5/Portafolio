@@ -10,7 +10,7 @@ eventos()
 function eventos(){
     formulario.addEventListener('submit',guardarFormulario)
     document.addEventListener('DOMContentLoaded',()=>{
-        Tareas=JSON.parse(localStorage.getItem('task'));
+        Tareas=JSON.parse(localStorage.getItem('task')) || [];
       
         mostrarHTML();
     })
