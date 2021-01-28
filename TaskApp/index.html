@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>TaskApp</title>
+</head>
+<body>
+   
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+             <a href="#" class="navbar-brand">Task App</a>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-md-4">
+                <div class="card" id="card-form">
+                    <div class="card-body">
+                        <form  id="formTask">
+                            <div class="form-group py-2">
+                                <input class="form-control" type="text" name="" id="title" placeholder="Agrega una tarea">
+                            </div>
+                            <div class="form-group py-2">
+                                <textarea class="form-control" name="" id="descripcion" cols="20" rows="10" placeholder="Agrega una descripcion de la tarea"></textarea>
+                            </div>
+                            <div class="form-group py-2">
+                                <input type="time"  class="form-control" id="hora">
+                            </div>
+                            <button class="btn btn-primary w-100" id="boton">Save</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-8">
+                <h3 class="card-title text-center">Tasks</h3>
+                <div id="tasks" ></div>
+            </div>
+
+        </div>
+    </div>
+    
+<script src="app.js"></script>    
+</body>
+</html>
