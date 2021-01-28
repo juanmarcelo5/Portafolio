@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CotizaParaguay</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body >
+    <div class="container py-3 ">
+        <div class="contenido pb-10">
+            <header class=" text-white py-3 bg-primary">
+                <h1 class="text-center text-title">Cotiza tu automovil en <span class="  font-weight-bold">CotizaParaguay</span></h1>
+            </header>
+          <form class=" " action="#" method="post" id="cotizador-autos">
+
+
+              <!-- titulo para la marca y option -->
+                  <h3 class="text-center title font-weight-bold">Marca</h3>
+                  <select class="form-control w-50   mx-auto" id="marca" name="">
+                    <option value="">-Seleccionar-</option>
+                    <option value="1">Toyota</option>
+                    <option value="2">Mercedez</option>
+                    <option value="3">Kia</option>
+              <!-- titulo para el modelo que va ser extraido de la bd       -->
+                  </select>
+                  <h3 class="text-center title font-weight-bold">Año</h3>
+                  <select class="form-control w-50  text-center mx-auto" id="year" name="">
+                    <option value="">-Seleccionar-</option>
+                  </select>
+                  <h3 class="text-center py-4 font-weight-bold">Tipo de Seguro</h3>
+                  <!-- creamos el radio button  -->
+                  <div class="radio ">
+                              <div class="mr-4">
+                                   <label class="font-weight-bold mr-2">Básico</label>
+                                       <input type="radio" name="tipo" value="basico" checked>
+                                   </label>
+                               </div>
+                               <div >
+                                   <label class="font-weight-bold  mr-2">Completo</label>
+                                       <input type="radio" name="tipo" value="completo">
+                                   </label>
+                               </div>
+                  </div>
+              <!-- spinner     -->
+              <div class="spinner text-center d-none py-2" id="spinner">
+                <div class=" spinner spinner-border " role="status"  >
+
+                </div>
+
+              </div>
+
+          <!-- resultado         -->
+              <div class="text-center" id="resultado">
+
+              </div>
+              <!-- boton -->
+              <div class="boton text-center py-2">
+                 <button
+                   type="submit"
+                   class=" btn btn-primary btn-lg py-2 px-20 "
+                   >Cotizar
+               </button>
+             </div>
+          </form>
+          <div class="Notas ml-5 p-5">
+            <h3>Notas</h3>
+            <li class="ml-3">Este proyecto simula un cotizador sencillo</li>
+            <li class="ml-3">El precio varia dependiendo de la marca y el año y el tipo de seguro</li>
+            <li class="ml-3">Los precios son genericos y estan en Guaranies</li>
+
+          </div>
+
+        </div>
+
+    </div>
+<script src="js/app.js"></script>
+  </body>
+</html>

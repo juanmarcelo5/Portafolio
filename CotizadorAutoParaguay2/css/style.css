@@ -1,0 +1,60 @@
+body{
+
+    background-color:  #C0392B ;
+    font-family: sans-serif;
+}
+.contenido{
+  background-color: white;
+  box-shadow: 10px 5px 5px #161515;
+
+}
+.contenido form{
+  margin-top: 22px;
+  display: flex;
+
+  flex-direction: column;
+
+
+}
+.form-control{
+    font-size: 16px;
+
+}
+.radio{
+  display: flex;
+  justify-content: center;
+}
+.boton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 18px;
+}
+.spinner{
+
+}
+.text-blue{
+  color: blue;
+}
+.resultado p{
+  font-size: 12px;
+}
+.negrita{
+  font-size: 18px;
+  font-weight: bolder;
+  
+}
+label{
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 700px){
+
+  .form-control{
+      font-size: 12px;
+
+  }
+  li{
+    padding-top: 3px;
+  }
+}
