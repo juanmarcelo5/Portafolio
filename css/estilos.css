@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Nunito', sans-serif;
+    background-color:white;
 }
 header{
     background: url(../img/fondo2.jpg) ;
@@ -121,28 +122,28 @@ section h3{
 }
 /*habilidades*/
 .html{
-    width: 80%;
+    width: 60%;
 }
 .css{
     width: 50%;
 }
 .javaScript{
-    width: 60%;
+    width: 40%;
 }
 .Responsive{
-    width: 70%;
+    width: 40%;
 }
 .React{
     width: 30%;
 }
 .java{
-    width: 95%;
+    width: 90%;
 }
 .Postgresql{
     width: 50%;
 }
 .Node{
-    width: 30%;
+    width: 20%;
 }
 .C{
     width: 80%;
