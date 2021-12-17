@@ -42,7 +42,7 @@ function mostrarBody(){
     setTimeout(()=>{
         holder.remove();
 
-    },2000)    ;
+    },1000)    ;
    
 }
 
@@ -51,8 +51,7 @@ function acerca( e){
  
    acercaDe=$('#acerca').offset().top-100;
     
-    
-    
+ 
     $('html, body').animate({
         scrollTop:acercaDe
         

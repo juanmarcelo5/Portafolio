@@ -100,7 +100,7 @@ section h3{
     padding: 10px;
 
 }
-/*Estlos habilidades*/
+/*Estilos habilidades*/
 .row li{
     margin: 20px 0;
     list-style: none;
@@ -140,16 +140,16 @@ section h3{
     width: 90%;
 }
 .Postgresql{
-    width: 50%;
+    width: 60%;
 }
 .Node{
-    width: 20%;
+    width: 40%;
 }
 .C{
-    width: 80%;
+    width: 60%;
 }
 .Python{
-    width: 50%;
+    width: 30%;
 }
 h4{
     font-weight: 700;
